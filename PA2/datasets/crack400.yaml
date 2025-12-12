@@ -1,0 +1,14 @@
+# parent folder
+# ├── PA2
+# └── datasets
+#     └── crack400 
+
+path:   C://Users/xiaoming/PA2/datasets/crack400    # dataset root dir
+train:  images/train            # train images (relative to 'path')  
+val:    images/val              # val images (relative to 'path')  
+test:   images/test             # test images (optional, relative to 'path') 
+
+# Classes
+names:
+  0: crack
+
